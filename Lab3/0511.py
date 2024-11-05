@@ -1,4 +1,5 @@
 #Zadanie 1
+"""
 imiona=["Ola", "Tadek", "Janek", "Katia"]
 
 # A
@@ -73,5 +74,39 @@ for i in range(n):
 
     lista.append(slowo)
     # slowo=""
+"""
+"""
+#Zadanie 5
+#Lista zakupów
 
+zakupy={"chleb":5.0, "masło":7.0, "czekolada":12.0, "czipsy":12.0, "woda":2.0 }
 
+#print(zakupy)
+suma=0
+for el in zakupy:
+    #el - indes / klucz
+    #zakupy[el] - wartość
+
+    #suma += zakupy[el]
+    print(f"{el} za {zakupy[el]} zł")
+
+suma=sum(zakupy.values())
+print(f"Za zakupy zapłacimy: {suma}")
+"""
+
+#Zadanie 7
+X={5, 6, 1}
+Y={3, 5, 7, 9, 1, 4, 6}
+
+#A
+print(5 in X)
+#B
+print(X.issubset(Y))
+
+#D
+print(X.union(Y))
+#E
+print(Y.difference(X))
+
+#G
+print(X.intersection(Y))
