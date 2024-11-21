@@ -72,6 +72,7 @@ print(Fib(n))
 #Zadanie 10
 
 # ver1. rekurencyjna
-# wzory f(n) = 2*f(n-1)+1 LUB f(n) = f(n-1)+2^(n-1)
+# wzory     f(n) = 2*f(n-1)+1       LUB     f(n) = f(n-1)+2^(n-1)
+
 # ver2. nierekurencyjna
 # wzór f(n) = 2^n -1
